@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bannerBg)" />
+  <!-- Subtle pattern grid -->
+  <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200 M0 360 H1200 M0 420 H1200 M0 480 H1200 M0 540 H1200" stroke="#334155" stroke-width="1" opacity="0.3" />
+  <path d="M120 0 V630 M240 0 V630 M360 0 V630 M480 0 V630 M600 0 V630 M720 0 V630 M840 0 V630 M960 0 V630 M1080 0 V630" stroke="#334155" stroke-width="1" opacity="0.3" />
+  
+  <rect x="50" y="50" width="1100" height="530" rx="24" fill="none" stroke="url(#accentGlow)" stroke-width="2" stroke-dasharray="10 6" opacity="0.6"/>
+
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="220" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="110" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle" letter-spacing="1.5">HYDERABAD STARTUPS CLUB</text>
+
+    <text x="0" y="110" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#f8fafc">The Founder’s Network</text>
+    <text x="0" y="170" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#94a3b8">Hyderabad Edition</text>
+
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="400" height="50" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="20" y="31" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1">📅 Saturday, 3 October 2026</text>
+    </g>
+
+    <g transform="translate(420, 220)">
+      <rect x="0" y="0" width="480" height="50" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="20" y="31" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">📍 NanoSpace Coworking, Gachibowli</text>
+    </g>
+  </g>
+
+  <!-- Watermark placeholder badge -->
+  <g transform="translate(850, 80)">
+    <rect x="0" y="0" width="250" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="125" y="21" font-family="monospace" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">EVENT_BANNER_PLACEHOLDER</text>
+  </g>
+</svg>

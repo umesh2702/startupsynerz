@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #F6F5F0;
+    --bg-surface: #FFFFFF;
+    --bg-dark: #111111;
+    --border-neutral: #E7E5DF;
+    --border-dark: #262626;
+    --text-main: #171717;
+    --text-muted: #737373;
+    --accent-gold: #C99A2E;
+    --accent-gold-light: #FDFBF7;
+    --accent-gold-border: #E5D5A8;
+  }
+
+  body {
+    background-color: #F6F5F0;
+    color: #171717;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+}
+
+/* Custom Editorial Utilities */
+.bg-warm {
+  background-color: #F6F5F0;
+}
+
+.border-neutral-subtle {
+  border-color: #E7E5DF;
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E7E5DF;
+  border-radius: 8px;
+}
+
+.editorial-badge {
+  background-color: #F6F5F0;
+  border: 1px solid #E7E5DF;
+  color: #171717;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.gold-accent-badge {
+  background-color: #FDFBF7;
+  border: 1px solid #E5D5A8;
+  color: #A3791B;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Custom Touch Targets & Mobile Nav Padding */
+.pb-safe-nav {
+  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* Hide scrollbars cleanly */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
